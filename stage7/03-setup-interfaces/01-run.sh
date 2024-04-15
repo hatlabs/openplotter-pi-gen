@@ -18,5 +18,8 @@ fi
 # Install the can0 network interface file
 install -D -m 644 files/can0 "${ROOTFS_DIR}/etc/network/interfaces.d/can0"
 
+# Install the gpsd configuration file
+install -m 644 files/gpsd "${ROOTFS_DIR}/etc/default/gpsd"
+
 # Install Signal K config file
 install -m 644 -o 1000 -g 1000 files/settings.json "${ROOTFS_DIR}/home/${FIRST_USER_NAME}/.signalk/settings.json"

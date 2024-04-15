@@ -61,6 +61,25 @@
       ],
       "id": "n0183tx",
       "enabled": true
+    },
+    {
+      "pipeElements": [
+        {
+          "type": "providers/simple",
+          "options": {
+            "logging": false,
+            "type": "NMEA0183",
+            "subOptions": {
+              "validateChecksum": true,
+              "type": "gpsd",
+              "host": "localhost",
+              "port": "2947"
+            }
+          }
+        }
+      ],
+      "id": "gpsd",
+      "enabled": true
     }
   ],
   "security": {

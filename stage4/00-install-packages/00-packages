@@ -8,6 +8,7 @@ alacarte rc-gui
 tree
 libgl1-mesa-dri libgles1 libgles2-mesa xcompmgr
 piclone
+python3-flask
 pprompt
 piwiz
 rp-prefapps

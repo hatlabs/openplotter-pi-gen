@@ -25,8 +25,12 @@ install -m 644 -o 1000 -g 1000 files/panel		"${ROOTFS_DIR}/home/pi/.config/lxpan
 #applications launch bar settings wayland
 install -m 644 -o 1000 -g 1000 files/wf-panel-pi.ini		"${ROOTFS_DIR}/home/pi/.config/"
 
+#keyboard
+install -m 644 files/matchbox-keyboard.desktop		"${ROOTFS_DIR}/usr/share/applications/inputmethods/"
+
 #remove unwanted icons
 rm -f "${ROOTFS_DIR}/usr/share/raspi-ui-overrides/applications/raspi_getstart.desktop"
-rm -f "${ROOTFS_DIR}/usr/share/raspi-ui-overrides/applications/help.desktop"
+rm -f "${ROOTFS_DIR}/usr/share/raspi-ui-overrides/applications/raspi_help.desktop"
 rm -f "${ROOTFS_DIR}/usr/share/raspi-ui-overrides/applications/raspi_resources.desktop"
 rm -f "${ROOTFS_DIR}/usr/share/raspi-ui-overrides/applications/debian-reference-common.desktop"
+rm -f "${ROOTFS_DIR}/usr/share/raspi-ui-overrides/applications/magpi.desktop"

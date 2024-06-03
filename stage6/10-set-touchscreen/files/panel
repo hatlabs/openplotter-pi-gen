@@ -65,6 +65,9 @@ Plugin {
       id=openplotter-check.desktop
     }
     Button {
+      id=openplotter-brightness.desktop
+    }
+    Button {
       id=openplotter-stop-sound.desktop
     }
   }

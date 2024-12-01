@@ -1,5 +1,9 @@
 # HALPI OpenPlotter pi-gen
 
+> [!CAUTION]
+> This repository is archived. New OpenPlotter-HALPI images are built using the [openplotter-halpi](https://github.com/hatlabs/openplotter-halpi) repository.
+
+
 This repository contains modifications to the OpenPlotter's pi-gen repository to adapt OpenPlotter to the [HALPI-CM4](https://shop.hatlabs.fi/products/halpi-m-cm4-08-512-asc) hardware: Pi CM4 with Waveshare IO-BASE-A, Waveshare 2-Ch Isolated CAN HAT, and optionally Waveshare 2-Ch Isolated RS485 HAT (modified to use GPIO 26 as CS).
 
 Any interesting content resides in the [op4-halpi](https://github.com/hatlabs/openplotter-pi-gen/tree/op4-halpi) branch.
